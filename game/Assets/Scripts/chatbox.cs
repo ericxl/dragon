@@ -34,6 +34,7 @@ public class ChatBox : MonoBehaviour, IChatClientListener
 
 	public void Start()
 	{
+		Debug.Log ("start");
 		DontDestroyOnLoad(gameObject);
 		this.ChatPanel.gameObject.SetActive(true);
 
