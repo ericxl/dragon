@@ -1,6 +1,3 @@
-/**
- * Created by Eric on 2/26/2017.
- */
 var Joi = require('joi');
 
 var registerUser = Joi.object().keys({
