@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "description": "A MMO game",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.20.0",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "joi": "^10.2.2",
+    "underscore": "^1.8.3",
+    "uuid": "^3.0.1"
+  }
+}
