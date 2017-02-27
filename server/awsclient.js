@@ -7,4 +7,4 @@ AWS.config.update({
 module.exports = {
     dynamoDb: AWS.DynamoDB,
     docClient: new AWS.DynamoDB.DocumentClient()
-}
+};
