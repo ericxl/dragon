@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using PlayFab;
 using PlayFab.ClientModels;
+using UnityEngine.SceneManagement;
 public class LoginView : MonoBehaviour
 {
     [SerializeField] private InputField userEmailField;
@@ -17,6 +18,10 @@ public class LoginView : MonoBehaviour
 		
 	}
 
+	public void Register(){
+		SceneManager.LoadScene ("Register");
+	}
+
     public void Login()
     {
         PlayFabClientAPI.LoginWithEmailAddress(new LoginWithEmailAddressRequest(){
@@ -25,6 +30,7 @@ public class LoginView : MonoBehaviour
         }, loginResult =>
         {
             Debug.Log("success");
+			SceneManager.LoadScene("Game");
             //go to game scene
         }, error =>
         {
