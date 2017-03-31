@@ -27,6 +27,7 @@ public class RegisterView : MonoBehaviour {
             }, LoginResult => 
             {
                 Debug.Log("Register Success");
+				SceneManager.LoadScene("Login");
 
             }, error =>
             {
@@ -43,4 +44,9 @@ public class RegisterView : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void backToLogin(){
+		SceneManager.LoadScene("Login");
+	}
+
 }
