@@ -4,16 +4,13 @@ using UnityEngine.UI;
 using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine.SceneManagement;
-
 public class LoginView : MonoBehaviour
 {
     [SerializeField] private InputField userEmailField;
     [SerializeField] private InputField passwordField;
-
-	public Text winText;
 	// Use this for initialization
     private void Start () {
-		winText.text = "";
+
 	}
 	
 	// Update is called once per frame
@@ -34,12 +31,11 @@ public class LoginView : MonoBehaviour
         }, loginResult =>
         {
             Debug.Log("success");
-			SceneManager.LoadScene("Game");
             //go to game scene
+            SceneManager.LoadScene("Game");
         }, error =>
         {
-			Debug.Log(error.ErrorDetails);
-			winText.text = "error";
+            Debug.Log(error.ErrorMessage);
         });
     }
 }

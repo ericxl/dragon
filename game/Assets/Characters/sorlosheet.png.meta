@@ -1,0 +1,966 @@
+fileFormatVersion: 2
+guid: ce52abd33760c7046a66e212db1b6544
+timeCreated: 1490858562
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sorlosheet_0
+    21300002: sorlosheet_1
+    21300004: sorlosheet_2
+    21300006: sorlosheet_3
+    21300008: sorlosheet_4
+    21300010: sorlosheet_5
+    21300012: sorlosheet_6
+    21300014: sorlosheet_7
+    21300016: sorlosheet_8
+    21300018: sorlosheet_9
+    21300020: sorlosheet_10
+    21300022: sorlosheet_11
+    21300024: sorlosheet_12
+    21300026: sorlosheet_13
+    21300028: sorlosheet_14
+    21300030: sorlosheet_15
+    21300032: sorlosheet_16
+    21300034: sorlosheet_17
+    21300036: sorlosheet_18
+    21300038: sorlosheet_19
+    21300040: sorlosheet_20
+    21300042: sorlosheet_21
+    21300044: sorlosheet_22
+    21300046: sorlosheet_23
+    21300048: sorlosheet_24
+    21300050: sorlosheet_25
+    21300052: sorlosheet_26
+    21300054: sorlosheet_27
+    21300056: sorlosheet_28
+    21300058: sorlosheet_29
+    21300060: sorlosheet_30
+    21300062: sorlosheet_31
+    21300064: sorlosheet_32
+    21300066: sorlosheet_33
+    21300068: sorlosheet_34
+    21300070: sorlosheet_35
+    21300072: sorlosheet_36
+    21300074: sorlosheet_37
+    21300076: sorlosheet_38
+    21300078: sorlosheet_39
+    21300080: sorlosheet_40
+    21300082: sorlosheet_41
+    21300084: sorlosheet_42
+    21300086: sorlosheet_43
+    21300088: sorlosheet_44
+    21300090: sorlosheet_45
+    21300092: sorlosheet_46
+    21300094: sorlosheet_47
+    21300096: sorlosheet_48
+    21300098: sorlosheet_49
+    21300100: sorlosheet_50
+    21300102: sorlosheet_51
+    21300104: sorlosheet_52
+    21300106: sorlosheet_53
+    21300108: sorlosheet_54
+    21300110: sorlosheet_55
+    21300112: sorlosheet_56
+    21300114: sorlosheet_57
+    21300116: sorlosheet_58
+    21300118: sorlosheet_59
+    21300120: sorlosheet_60
+    21300122: sorlosheet_61
+    21300124: sorlosheet_62
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sorlosheet_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 566
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 566
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 566
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_3
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 575
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 576
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 569
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_6
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 569
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 477
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 477
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 477
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 478
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_11
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 485
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_12
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 485
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_13
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 485
+        width: 100
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_14
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 479
+        width: 127
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_15
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 474
+        width: 100
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 388
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_17
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 387
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 376
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_19
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 386
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_20
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 386
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_21
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 386
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_22
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 385
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_23
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 334
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_24
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 333
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_25
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 333
+        width: 46
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_26
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 327
+        width: 42
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_27
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 286
+        width: 45
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_28
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 325
+        width: 42
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_29
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 325
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_30
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 316
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 301
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_32
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 301
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_33
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 303
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_34
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 304
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_35
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 302
+        width: 75
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_36
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 299
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_37
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 299
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_38
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 320
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 206
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 206
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 204
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_42
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 207
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_43
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 209
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_44
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 208
+        width: 124
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_45
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 209
+        width: 131
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_46
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 124
+        width: 131
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 118
+        width: 131
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 118
+        width: 131
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_49
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 120
+        width: 133
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_50
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 121
+        width: 135
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_51
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 120
+        width: 135
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_52
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 118
+        width: 148
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_53
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 33
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_54
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 31
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_55
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 28
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 28
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_57
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 29
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_58
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 27
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_59
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 52
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_60
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 51
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_61
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 51
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sorlosheet_62
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 51
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

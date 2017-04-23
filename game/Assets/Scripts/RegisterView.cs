@@ -12,6 +12,10 @@ public class RegisterView : MonoBehaviour {
     [SerializeField] private InputField passwordField;
     [SerializeField] private InputField confirmPassword;
 
+    public void back()
+    {
+        SceneManager.LoadScene("Login");
+    }
 
     public void addNewUser()
     {
@@ -27,7 +31,7 @@ public class RegisterView : MonoBehaviour {
             }, LoginResult => 
             {
                 Debug.Log("Register Success");
-				SceneManager.LoadScene("Login");
+                SceneManager.LoadScene("Login");
 
             }, error =>
             {
@@ -44,9 +48,4 @@ public class RegisterView : MonoBehaviour {
 	void Update () {
 		
 	}
-
-	public void backToLogin(){
-		SceneManager.LoadScene("Login");
-	}
-
 }
