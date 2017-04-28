@@ -32,7 +32,7 @@ public class LoginView : MonoBehaviour
         {
             Debug.Log("success");
             //go to game scene
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("Lobby");
         }, error =>
         {
             Debug.Log(error.ErrorMessage);
