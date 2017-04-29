@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using PlayFab;
 using PlayFab.ClientModels;
 using PlayFab.SharedModels;
-using Newtonsoft.Json;
 using UnityEngine;
 public static class PlayFabManager
 {
@@ -64,7 +63,7 @@ public static class PlayFabManager
 
 		method.Invoke(null, new object[] { actual, resultCallback, errorHandler, customData, extraHeaders});
     }
-
+    /*
     public static void Execute(string functionName, Action resultCallback = null, Action<PlayFabError> errorCallback = null)
     {
         Execute<object>(functionName, null, resultCallback, errorCallback);
@@ -90,7 +89,7 @@ public static class PlayFabManager
                 resultCallback(r);
             }, errorCallback);
     }
-
+    */
 
     public static void Login(string userName, Action<LoginResult> loginCallback, Action<PlayFabError> errorCallback)
     {
