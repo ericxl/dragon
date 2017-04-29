@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointerDownHandler{
 	private Image bgImg;
@@ -12,6 +13,7 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
 	private void Start() {
 		bgImg = GetComponent<Image> ();
 		joystickImg = transform.GetChild (0).GetComponent<Image> ();
+
 	}
 
 	public virtual void OnDrag(PointerEventData ped) {
@@ -25,7 +27,6 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
 			Debug.Log (inputvector);
 			joystickImg.rectTransform.anchoredPosition = 
 				new Vector2 (inputvector.x * (bgImg.rectTransform.sizeDelta.x / 3), inputvector.y * (bgImg.rectTransform.sizeDelta.x / 3));
-			
 		
 		}
 	}
@@ -37,12 +38,16 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
 	public virtual void OnPointerUp(PointerEventData ped) {
 		inputvector = Vector2.zero;
 		joystickImg.rectTransform.anchoredPosition = Vector2.zero;
+
+
 	}
 
 	public float Horizontal() {
 		
 		if (inputvector.x != 0) {
+			
 			return inputvector.x;
+
 		} else {
 			return Input.GetAxisRaw ("Horizontal");
 		}

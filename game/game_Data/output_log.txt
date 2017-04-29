@@ -19,38 +19,42 @@ Platform assembly: C:\Users\tony zhang\Desktop\EE461\dragon\game\game_Data\Manag
 Loading C:\Users\tony zhang\Desktop\EE461\dragon\game\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\tony zhang\Desktop\EE461\dragon\game\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\tony zhang\Desktop\EE461\dragon\game\game_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
+- Completed reload, in  0.045 seconds
 Platform assembly: C:\Users\tony zhang\Desktop\EE461\dragon\game\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\tony zhang\Desktop\EE461\dragon\game\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.502109 ms
-409 Conflict
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+UnloadTime: 1.411156 ms
 success
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.122404 ms
+UnloadTime: 3.947039 ms
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 864.
-Total: 3.558413 ms (FindLiveObjects: 0.069041 ms CreateObjectMapping: 0.041051 ms MarkObjects: 0.820095 ms  DeleteObjects: 2.627758 ms)
+Total: 3.308870 ms (FindLiveObjects: 0.051314 ms CreateObjectMapping: 0.041518 ms MarkObjects: 0.665692 ms  DeleteObjects: 2.549877 ms)
 
 DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
  
 (Filename:  Line: 447)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.320481 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1183.
-Total: 1.164368 ms (FindLiveObjects: 0.051780 ms CreateObjectMapping: 0.059244 ms MarkObjects: 1.045878 ms  DeleteObjects: 0.006530 ms)
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.366200 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1506.
+Total: 1.693387 ms (FindLiveObjects: 0.302290 ms CreateObjectMapping: 0.074639 ms MarkObjects: 1.304328 ms  DeleteObjects: 0.011195 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2a84 -> priority: 1 
-  Thread -> id: 1b64 -> priority: 1 
+  Thread -> id: 257c -> priority: 1 
+  Thread -> id: 24c8 -> priority: 1 
