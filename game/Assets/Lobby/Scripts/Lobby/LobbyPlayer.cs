@@ -4,7 +4,8 @@ using UnityEngine.Networking;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-
+using PlayFab;
+using PlayFab.ClientModels;
 namespace Prototype.NetworkLobby
 {
     //Player entry in the lobby. Handle selecting color/setting name & getting ready for the game
@@ -16,7 +17,7 @@ namespace Prototype.NetworkLobby
         static List<int> _colorInUse = new List<int>();
 
         public Button colorButton;
-        public InputField nameInput;
+        public Text nameInput;
         public Button readyButton;
         public Button waitingPlayerButton;
         public Button removePlayerButton;
@@ -88,7 +89,7 @@ namespace Prototype.NetworkLobby
 
         void SetupOtherPlayer()
         {
-            nameInput.interactable = false;
+            //nameInput.interactable = false;
             removePlayerButton.interactable = NetworkServer.active;
 
             ChangeReadyButtonColor(NotReadyColor);
@@ -101,7 +102,7 @@ namespace Prototype.NetworkLobby
 
         void SetupLocalPlayer()
         {
-            nameInput.interactable = true;
+            //nameInput.interactable = true;
             remoteIcone.gameObject.SetActive(false);
             localIcone.gameObject.SetActive(true);
 
@@ -121,10 +122,13 @@ namespace Prototype.NetworkLobby
 
             //we switch from simple name display to name input
             colorButton.interactable = true;
-            nameInput.interactable = true;
+            //nameInput.interactable = true;
 
-            nameInput.onEndEdit.RemoveAllListeners();
-            nameInput.onEndEdit.AddListener(OnNameChanged);
+            nameInput.text = PlayFabManager.UserName;
+			OnNameChanged(PlayFabManager.UserName);
+            //nameInput.onEndEdit.AddListener(OnNameChanged);
+
+            //PlayFab.PlayFabClientAPI.
 
             colorButton.onClick.RemoveAllListeners();
             colorButton.onClick.AddListener(OnColorClicked);
@@ -161,7 +165,7 @@ namespace Prototype.NetworkLobby
                 textComponent.color = ReadyColor;
                 readyButton.interactable = false;
                 colorButton.interactable = false;
-                nameInput.interactable = false;
+                //nameInput.interactable = false;
             }
             else
             {
@@ -172,7 +176,7 @@ namespace Prototype.NetworkLobby
                 textComponent.color = Color.white;
                 readyButton.interactable = isLocalPlayer;
                 colorButton.interactable = isLocalPlayer;
-                nameInput.interactable = isLocalPlayer;
+                //nameInput.interactable = isLocalPlayer;
             }
         }
 
