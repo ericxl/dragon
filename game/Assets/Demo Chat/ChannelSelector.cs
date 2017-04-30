@@ -9,16 +9,12 @@ using TMPro;
 public class ChannelSelector : MonoBehaviour, IPointerClickHandler
 {
     public string Channel;
-	public TextMeshProUGUI label;
-
-	public void Start(){
-		label = GetComponentInChildren<TextMeshProUGUI> ();
-	}
 
     public void SetChannel(string channel)
     {
         this.Channel = channel;
-		label.text = this.Channel;        
+		TextMeshProUGUI t = GetComponentInChildren<TextMeshProUGUI>();
+        t.text = this.Channel;        
     }
 
     public void OnPointerClick(PointerEventData eventData)

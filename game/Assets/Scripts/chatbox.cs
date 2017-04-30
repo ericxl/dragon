@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
 public class ChatBox : MonoBehaviour, IChatClientListener
 {
 	public string[] ChannelsToJoinOnConnect; // set in inspector. Demo channels to join automatically.
@@ -37,7 +38,9 @@ public class ChatBox : MonoBehaviour, IChatClientListener
 		this.ChatPanel.gameObject.SetActive(true);
 
 		Application.runInBackground = true; // this must run in background or it will drop connection if not focussed.
-		this.UserName = PlayFabManager.UserName;
+
+		UserName = PlayFabManager.UserName;
+
 		if (string.IsNullOrEmpty(UserName))
 		{
 			UserName = "user" + Environment.TickCount%99; //made-up username
