@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Building : MonoBehaviour {
 
@@ -36,4 +35,13 @@ public class Building : MonoBehaviour {
         sidebar_button.SetActive(true);
 
     }
+
+    public void openTrading()
+    {
+        Debug.Log("You have clicked a button!");
+        sidebar.SetActive(false);
+        sidebar_button.SetActive(false);
+        SceneManager.LoadScene("Shop");
+    }
+
 }

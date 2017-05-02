@@ -31,6 +31,7 @@ public class RegisterView : MonoBehaviour {
             }, LoginResult => 
             {
                 Debug.Log("Register Success");
+                setUserData();
                 SceneManager.LoadScene("Login");
 
             }, error =>
@@ -48,4 +49,29 @@ public class RegisterView : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void setUserData()
+    {
+        UpdateUserDataRequest request = new UpdateUserDataRequest()
+        {
+             Data = new Dictionary<string, string>(){
+                 { "GOLD", "1" },
+                 { "LVL", "1" },
+                 { "HP", "100" },
+                 { "XP", "0" },
+                 { "MP", "100" },
+                 { "ATTACK", "20" },
+                 { "DEFENCE", "0" }
+             }
+        };
+
+        PlayFabClientAPI.UpdateUserData(request, (result) =>
+        {
+            Debug.Log("Successfully set user data");
+        }, (error) =>
+        {
+            Debug.Log("Got error setting user data Ancestor to Arthur");
+            Debug.Log(error.ErrorDetails);
+        });
+    }
 }
