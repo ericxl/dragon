@@ -30,7 +30,7 @@ public class LoginView : MonoBehaviour
             Password = passwordField.text
         }, loginResult =>
         {
-            Debug.Log("Login success");
+            Debug.Log("success");
             //go to game scene
             SceneManager.LoadScene("Game");
         }, error =>
