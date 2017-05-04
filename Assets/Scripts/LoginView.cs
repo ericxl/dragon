@@ -28,10 +28,15 @@ public class LoginView : MonoBehaviour
         PlayFabClientAPI.LoginWithEmailAddress(new LoginWithEmailAddressRequest(){
             Email = userEmailField.text,
             Password = passwordField.text,
-			InfoRequestParameters = new GetPlayerCombinedInfoRequestParams{GetUserAccountInfo = true}
+			InfoRequestParameters = new GetPlayerCombinedInfoRequestParams{
+				GetUserAccountInfo = true,
+				GetUserInventory = true,
+				GetUserVirtualCurrency = true
+			}
         }, loginResult =>
         {
             PlayFabManager.UserName = loginResult.InfoResultPayload.AccountInfo.Username;
+            PlayFabManager.playerId = loginResult.InfoResultPayload.AccountInfo.PlayFabId;
             //go to game scene
             SceneManager.LoadScene("Lobby");
         }, error =>

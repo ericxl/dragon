@@ -19,7 +19,7 @@ public class ChatBox : MonoBehaviour, IChatClientListener
 
 
 	public RectTransform ChatPanel;     // set in inspector (to enable/disable panel)
-	public InputField InputFieldChat;   // set in inspector
+	public TMP_InputField InputFieldChat;   // set in inspector
 	public TextMeshProUGUI CurrentChannelText;     // set in inspector
 	public Toggle ChannelToggleToInstantiate; // set in inspector
 	private readonly Dictionary<string, Toggle> channelToggles = new Dictionary<string, Toggle>();
@@ -34,9 +34,8 @@ public class ChatBox : MonoBehaviour, IChatClientListener
 
 	public void Start()
 	{
-		Debug.Log ("start");
 		DontDestroyOnLoad(gameObject);
-		this.ChatPanel.gameObject.SetActive(true);
+		//this.ChatPanel.gameObject.SetActive(true);
 
 		Application.runInBackground = true; // this must run in background or it will drop connection if not focussed.
 

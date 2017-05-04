@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 11513c0c2b8984889a74023b68505458
-timeCreated: 1460411491
+timeCreated: 1493875920
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -44,12 +44,13 @@ TextureImporter:
     21300074: white_marker
     21300076: healthbar_maker
     21300078: back_arrow
-  serializedVersion: 2
+    21300080: GameUI_1
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -61,10 +62,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 512
@@ -75,9 +74,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 2
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -85,13 +82,52 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 5
-  buildTargetSettings: []
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: bars_0
+    - serializedVersion: 2
+      name: bars_0
       rect:
         serializedVersion: 2
         x: 0
@@ -103,7 +139,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: bars_1
+    - serializedVersion: 2
+      name: bars_1
       rect:
         serializedVersion: 2
         x: 16
@@ -115,7 +152,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: bars_2
+    - serializedVersion: 2
+      name: bars_2
       rect:
         serializedVersion: 2
         x: 32
@@ -127,7 +165,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: bars_3
+    - serializedVersion: 2
+      name: bars_3
       rect:
         serializedVersion: 2
         x: 48
@@ -139,7 +178,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: bars_4
+    - serializedVersion: 2
+      name: bars_4
       rect:
         serializedVersion: 2
         x: 0
@@ -151,7 +191,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: bars_5
+    - serializedVersion: 2
+      name: bars_5
       rect:
         serializedVersion: 2
         x: 16
@@ -163,7 +204,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: bars_6
+    - serializedVersion: 2
+      name: bars_6
       rect:
         serializedVersion: 2
         x: 32
@@ -175,7 +217,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: bars_7
+    - serializedVersion: 2
+      name: bars_7
       rect:
         serializedVersion: 2
         x: 48
@@ -187,7 +230,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: exp_frame
+    - serializedVersion: 2
+      name: exp_frame
       rect:
         serializedVersion: 2
         x: 64
@@ -197,21 +241,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -13}
-        - {x: -15, y: -16}
-        - {x: 15, y: -16}
-        - {x: 16, y: -14}
-        - {x: 16, y: 14}
-        - {x: 13, y: 16}
-      - - {x: -8, y: -8}
-        - {x: -8, y: 9}
-        - {x: 2, y: 11}
-        - {x: 10, y: -4}
+      outline: []
       tessellationDetail: -1
-    - name: exp_bar
+    - serializedVersion: 2
+      name: exp_bar
       rect:
         serializedVersion: 2
         x: 96
@@ -221,18 +254,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 16}
-        - {x: -16, y: 12}
-        - {x: -16, y: -9}
-        - {x: -7, y: -16}
-        - {x: 7, y: -16}
-        - {x: 10, y: -15}
-        - {x: 16, y: -12}
-        - {x: 16, y: 13}
-        - {x: 12, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: pause
+    - serializedVersion: 2
+      name: pause
       rect:
         serializedVersion: 2
         x: 0
@@ -242,13 +267,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 6}
-        - {x: -6, y: -7}
-        - {x: 6, y: -7}
-        - {x: 6, y: 6}
+      outline: []
       tessellationDetail: -1
-    - name: JS_Base
+    - serializedVersion: 2
+      name: JS_Base
       rect:
         serializedVersion: 2
         x: 0
@@ -258,17 +280,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -30, y: -18}
-        - {x: -18, y: -30}
-        - {x: 12, y: -30}
-        - {x: 13, y: -29}
-        - {x: 30, y: -21}
-        - {x: 30, y: 30}
-        - {x: -19, y: 30}
-        - {x: -30, y: 26}
+      outline: []
       tessellationDetail: -1
-    - name: JS_Wheel
+    - serializedVersion: 2
+      name: JS_Wheel
       rect:
         serializedVersion: 2
         x: 64
@@ -278,17 +293,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -30, y: -18}
-        - {x: -18, y: -30}
-        - {x: 12, y: -30}
-        - {x: 13, y: -29}
-        - {x: 30, y: -21}
-        - {x: 30, y: 30}
-        - {x: -19, y: 30}
-        - {x: -30, y: 26}
+      outline: []
       tessellationDetail: -1
-    - name: window
+    - serializedVersion: 2
+      name: window
       rect:
         serializedVersion: 2
         x: 32
@@ -298,17 +306,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 6, y: 6, z: 6, w: 6}
-      outline:
-      - - {x: -14, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -14}
-        - {x: -14, y: -16}
-        - {x: 14, y: -16}
-        - {x: 16, y: -14}
-        - {x: 16, y: 14}
-        - {x: 14, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: button_normal
+    - serializedVersion: 2
+      name: button_normal
       rect:
         serializedVersion: 2
         x: 0
@@ -318,14 +319,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 16}
-        - {x: -64, y: -14}
-        - {x: -61, y: -16}
-        - {x: 64, y: -16}
-        - {x: 64, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: button_pressed
+    - serializedVersion: 2
+      name: button_pressed
       rect:
         serializedVersion: 2
         x: 0
@@ -335,14 +332,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 16}
-        - {x: -64, y: -14}
-        - {x: -61, y: -16}
-        - {x: 64, y: -16}
-        - {x: 64, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: check_frame
+    - serializedVersion: 2
+      name: check_frame
       rect:
         serializedVersion: 2
         x: 0
@@ -352,17 +345,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -16, y: 14}
-        - {x: -16, y: -13}
-        - {x: -15, y: -16}
-        - {x: 15, y: -16}
-        - {x: 16, y: -14}
-        - {x: 16, y: 14}
-        - {x: 13, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: check
+    - serializedVersion: 2
+      name: check
       rect:
         serializedVersion: 2
         x: 32
@@ -372,16 +358,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14, y: 16}
-        - {x: -16, y: 10}
-        - {x: -16, y: -9}
-        - {x: -8, y: -16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -10}
-        - {x: 16, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: cloud_frame
+    - serializedVersion: 2
+      name: cloud_frame
       rect:
         serializedVersion: 2
         x: 64
@@ -391,16 +371,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11, y: 13}
-        - {x: -7, y: 13}
-        - {x: -16, y: 5}
-        - {x: -16, y: -13}
-        - {x: 16, y: -13}
-        - {x: 16, y: 8}
-        - {x: 15, y: 12}
+      outline: []
       tessellationDetail: -1
-    - name: cloud
+    - serializedVersion: 2
+      name: cloud
       rect:
         serializedVersion: 2
         x: 96
@@ -410,17 +384,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 12}
-        - {x: -13, y: 12}
-        - {x: -16, y: 5}
-        - {x: -16, y: -12}
-        - {x: 15, y: -12}
-        - {x: 16, y: -10}
-        - {x: 16, y: 3}
-        - {x: 12, y: 9}
+      outline: []
       tessellationDetail: -1
-    - name: scroll
+    - serializedVersion: 2
+      name: scroll
       rect:
         serializedVersion: 2
         x: 256
@@ -430,34 +397,10 @@ TextureImporter:
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 26, y: 37, z: 23, w: 32}
-      outline:
-      - - {x: 110, y: -158}
-        - {x: 112, y: -42}
-        - {x: 126, y: -26}
-        - {x: 126, y: -8}
-        - {x: 123, y: -1}
-        - {x: 80, y: -1}
-        - {x: 57, y: -2}
-        - {x: -23, y: -3}
-        - {x: -87, y: -1}
-        - {x: -119, y: -1}
-        - {x: -121, y: -3}
-        - {x: -123, y: -13}
-        - {x: -123, y: -25}
-        - {x: -109, y: -39}
-        - {x: -107, y: -155}
-        - {x: -113, y: -224}
-        - {x: -123, y: -226}
-        - {x: -123, y: -248}
-        - {x: -119, y: -250}
-        - {x: -33, y: -249}
-        - {x: 25, y: -249}
-        - {x: 75, y: -253}
-        - {x: 124, y: -253}
-        - {x: 126, y: -249}
-        - {x: 126, y: -227}
+      outline: []
       tessellationDetail: -1
-    - name: fader
+    - serializedVersion: 2
+      name: fader
       rect:
         serializedVersion: 2
         x: 0
@@ -467,13 +410,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: chains
+    - serializedVersion: 2
+      name: chains
       rect:
         serializedVersion: 2
         x: 96
@@ -483,13 +423,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 14, z: 0, w: 13}
-      outline:
-      - - {x: -16, y: 5}
-        - {x: -16, y: -4}
-        - {x: 16, y: -4}
-        - {x: 16, y: 5}
+      outline: []
       tessellationDetail: -1
-    - name: tab_normal
+    - serializedVersion: 2
+      name: tab_normal
       rect:
         serializedVersion: 2
         x: 128
@@ -501,7 +438,8 @@ TextureImporter:
       border: {x: 6, y: 2, z: 6, w: 6}
       outline: []
       tessellationDetail: -1
-    - name: tab_pressed
+    - serializedVersion: 2
+      name: tab_pressed
       rect:
         serializedVersion: 2
         x: 192
@@ -513,7 +451,8 @@ TextureImporter:
       border: {x: 6, y: 2, z: 6, w: 8}
       outline: []
       tessellationDetail: -1
-    - name: Line
+    - serializedVersion: 2
+      name: Line
       rect:
         serializedVersion: 2
         x: 128
@@ -525,7 +464,8 @@ TextureImporter:
       border: {x: 1, y: 2, z: 2, w: 1}
       outline: []
       tessellationDetail: -1
-    - name: exclaimation
+    - serializedVersion: 2
+      name: exclaimation
       rect:
         serializedVersion: 2
         x: 73
@@ -537,7 +477,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: -1
-    - name: slot
+    - serializedVersion: 2
+      name: slot
       rect:
         serializedVersion: 2
         x: 128
@@ -546,19 +487,11 @@ TextureImporter:
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 31, y: 28}
-        - {x: 28, y: 32}
-        - {x: -32, y: 32}
-        - {x: -32, y: -28}
-        - {x: -31, y: -32}
-        - {x: 28, y: -32}
-        - {x: 31, y: -28}
-        - {x: 32, y: -25}
-        - {x: 32, y: 25}
+      border: {x: 5, y: 4, z: 5, w: 5}
+      outline: []
       tessellationDetail: -1
-    - name: item_shadow
+    - serializedVersion: 2
+      name: item_shadow
       rect:
         serializedVersion: 2
         x: 192
@@ -568,17 +501,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: -14}
-        - {x: -18, y: -16}
-        - {x: -18, y: -25}
-        - {x: -13, y: -26}
-        - {x: 15, y: -26}
-        - {x: 18, y: -23}
-        - {x: 18, y: -15}
-        - {x: 14, y: -14}
+      outline: []
       tessellationDetail: -1
-    - name: close_normal
+    - serializedVersion: 2
+      name: close_normal
       rect:
         serializedVersion: 2
         x: 128
@@ -588,16 +514,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -30}
-        - {x: -26, y: -32}
-        - {x: 22, y: -32}
-        - {x: 29, y: -23}
-        - {x: 29, y: 24}
-        - {x: 26, y: 32}
+      outline: []
       tessellationDetail: -1
-    - name: GameUI_0
+    - serializedVersion: 2
+      name: GameUI_0
       rect:
         serializedVersion: 2
         x: 192
@@ -607,16 +527,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -30}
-        - {x: -26, y: -32}
-        - {x: 22, y: -32}
-        - {x: 29, y: -23}
-        - {x: 29, y: 24}
-        - {x: 26, y: 32}
+      outline: []
       tessellationDetail: -1
-    - name: scrollbackground
+    - serializedVersion: 2
+      name: scrollbackground
       rect:
         serializedVersion: 2
         x: 41
@@ -628,7 +542,8 @@ TextureImporter:
       border: {x: 5, y: 3, z: 4, w: 3}
       outline: []
       tessellationDetail: -1
-    - name: rarity
+    - serializedVersion: 2
+      name: rarity
       rect:
         serializedVersion: 2
         x: 128
@@ -637,21 +552,11 @@ TextureImporter:
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 29, y: 31}
-        - {x: -31, y: 31}
-        - {x: -31, y: -30}
-        - {x: -29, y: -31}
-        - {x: 28, y: -31}
-        - {x: 31, y: -29}
-        - {x: 31, y: 28}
-      - - {x: -24, y: 24}
-        - {x: 24, y: 24}
-        - {x: 24, y: -24}
-        - {x: -24, y: -24}
+      border: {x: 6, y: 6, z: 6, w: 6}
+      outline: []
       tessellationDetail: -1
-    - name: rect_button
+    - serializedVersion: 2
+      name: rect_button
       rect:
         serializedVersion: 2
         x: 0
@@ -661,13 +566,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 16}
-        - {x: -64, y: -16}
-        - {x: 64, y: -16}
-        - {x: 64, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: rect_button_pressed
+    - serializedVersion: 2
+      name: rect_button_pressed
       rect:
         serializedVersion: 2
         x: 0
@@ -677,13 +579,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -64, y: 16}
-        - {x: -64, y: -16}
-        - {x: 64, y: -16}
-        - {x: 64, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: white_marker
+    - serializedVersion: 2
+      name: white_marker
       rect:
         serializedVersion: 2
         x: 64
@@ -693,13 +592,10 @@ TextureImporter:
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 16}
-        - {x: 0, y: -16}
-        - {x: 32, y: -16}
-        - {x: 32, y: 16}
+      outline: []
       tessellationDetail: -1
-    - name: back_arrow
+    - serializedVersion: 2
+      name: back_arrow
       rect:
         serializedVersion: 2
         x: 96
@@ -709,17 +605,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 6}
-        - {x: 1, y: 8}
-        - {x: -5, y: 8}
-        - {x: -13, y: 3}
-        - {x: -13, y: 0}
-        - {x: -5, y: -8}
-        - {x: -2, y: -7}
-        - {x: 5, y: -8}
-        - {x: 9, y: -8}
-        - {x: 9, y: -1}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GameUI_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 211
+        width: 6
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
       tessellationDetail: 0
     outline: []
   spritePackingTag: GUI
