@@ -1,0 +1,267 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-optimize
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'Assets/Plugins/Photon3Unity3D.dll'
+-r:'Assets/TextMesh Pro/Plugins/Runtime DLL/TextMeshPro.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_2
+-define:UNITY_5_5
+-define:UNITY_5
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:CROSS_PLATFORM_INPUT
+-define:TMP_PRESENT
+-define:MOBILE_INPUT
+'Assets/ChatScript/ChannelSelector.cs'
+'Assets/ChatScript/ChatNewGui.cs'
+'Assets/ChatScript/DeleteOnStart.cs'
+'Assets/ChatScript/IgnoreUiRaycastWhenInactive.cs'
+'Assets/ChatScript/NamePickNewGui.cs'
+'Assets/Lobby/Scripts/DraggablePanel.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyCountdownPanel.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyHook.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyInfoPanel.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyMainMenu.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyManager.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyPlayer.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyPlayerList.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyServerEntry.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyServerList.cs'
+'Assets/Lobby/Scripts/Lobby/LobbyTopPanel.cs'
+'Assets/PhotonChat/ChatSettings.cs'
+'Assets/PhotonChatApi/ChatChannel.cs'
+'Assets/PhotonChatApi/ChatClient.cs'
+'Assets/PhotonChatApi/ChatDisconnectCause.cs'
+'Assets/PhotonChatApi/ChatEventCode.cs'
+'Assets/PhotonChatApi/ChatOperationCode.cs'
+'Assets/PhotonChatApi/ChatParameterCode.cs'
+'Assets/PhotonChatApi/ChatPeer.cs'
+'Assets/PhotonChatApi/ChatState.cs'
+'Assets/PhotonChatApi/ChatUserStatus.cs'
+'Assets/PhotonChatApi/IChatClientListener.cs'
+'Assets/Scripts/ActionExtensions.cs'
+'Assets/Scripts/Building.cs'
+'Assets/Scripts/CamerFollow.cs'
+'Assets/Scripts/CamerFollow_net.cs'
+'Assets/Scripts/ChatBox.cs'
+'Assets/Scripts/InputButton.cs'
+'Assets/Scripts/LoginView.cs'
+'Assets/Scripts/Movement_net.cs'
+'Assets/Scripts/PlayFabManager.cs'
+'Assets/Scripts/RegisterView.cs'
+'Assets/Scripts/SideBar.cs'
+'Assets/Scripts/dragTest.cs'
+'Assets/Scripts/hideandseek.cs'
+'Assets/Scripts/testing2.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark01.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark01_UGUI.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark02.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark03.cs'
+'Assets/TextMesh Pro/Examples/Scripts/Benchmark04.cs'
+'Assets/TextMesh Pro/Examples/Scripts/CameraController.cs'
+'Assets/TextMesh Pro/Examples/Scripts/ChatController.cs'
+'Assets/TextMesh Pro/Examples/Scripts/ObjectSpin.cs'
+'Assets/TextMesh Pro/Examples/Scripts/ShaderPropAnimator.cs'
+'Assets/TextMesh Pro/Examples/Scripts/SimpleScript.cs'
+'Assets/TextMesh Pro/Examples/Scripts/SkewTextExample.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_DigitValidator.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_ExampleScript_01.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_FrameRateCounter.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_TextEventCheck.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_TextEventHandler.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_TextInfoDebugTool.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_TextSelector_A.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_TextSelector_B.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMP_UiFrameRateCounter.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TMPro_InstructionOverlay.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TeleType.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TextConsoleSimulator.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TextMeshProFloatingText.cs'
+'Assets/TextMesh Pro/Examples/Scripts/TextMeshSpawner.cs'
+'Assets/TextMesh Pro/Examples/Scripts/VertexColorCycler.cs'
+'Assets/TextMesh Pro/Examples/Scripts/VertexJitter.cs'
+'Assets/TextMesh Pro/Examples/Scripts/VertexShakeA.cs'
+'Assets/TextMesh Pro/Examples/Scripts/VertexShakeB.cs'
+'Assets/TextMesh Pro/Examples/Scripts/VertexZoom.cs'
+'Assets/TextMesh Pro/Examples/Scripts/WarpTextExample.cs'
+'Assets/ThirdParty/CrossPlatformInput/CrossPlatformInputManager.cs'
+'Assets/ThirdParty/CrossPlatformInput/JoyStick.cs'
+'Assets/ThirdParty/CrossPlatformInput/MobileInput.cs'
+'Assets/ThirdParty/CrossPlatformInput/StandaloneInput.cs'
+'Assets/ThirdParty/CrossPlatformInput/VirtualInput.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Admin/PlayFabAdminAPI.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Admin/PlayFabAdminModels.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Admin/PlayFabEvents.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Admin/PlayFabSettings.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Client/PlayFabClientAPI.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Client/PlayFabClientModels.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Client/PlayFabEvents.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Client/PlayFabIdfa.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Client/PlayFabSettings.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Matchmaker/PlayFabEvents.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Matchmaker/PlayFabMatchmakerAPI.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Matchmaker/PlayFabMatchmakerModels.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Server/PlayFabEvents.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Server/PlayFabServerAPI.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Server/PlayFabServerModels.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Server/PlayFabSettings.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Server/PlayStream/PlayFabPlayStreamAPI.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/ISerializer.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/Log.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/PlayFabHttp/IPlayFabHttp.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWWW.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/PlayFabSignalR/IPlayFabSignalR.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/PlayFabSignalR/PlayFabSignalR.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/SimpleJson.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/SingletonMonoBehaviour.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/Util.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Internal/wsaReflectionExtensions.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/CRC32.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/Deflate.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/DeflateStream.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/GZipStream.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/InfTree.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/Inflate.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/ParallelDeflateOutputStream.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/ZTree.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/Zlib.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/ZlibBaseStream.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/ZlibCodec.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/ZlibConstants.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Ionic.Zlib/ZlibStream.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Models/PlayFabSharedSettings.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Models/SharedModels.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Public/PlayFabDataGatherer.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Public/PlayFabEvents.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Public/PlayFabLogger.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Public/PlayFabSettings.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/Public/PlayStream/PlayStreamEventDataModels.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Connection.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/ConnectionExtensions.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/DisposableAction.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/CallbackDetail.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/DefaultHttpClient.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/HttpHelper.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/HttpWebRequestWrapper.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/HttpWebResponseWrapper.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/IHttpClient.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/IHttpClientExtensions.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/IRequest.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/IResponse.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Http/RequestState.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/HubConnection.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/HubInvocation.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/HubMethodAttribute.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/HubProxy.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/HubRegistrationData.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/HubResult.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/Hubservable.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/IHubProxy.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/IObservable.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/IObserver.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/ProxyExtensions.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Hubs/Subscription.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/IConnection.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Infrastructure/ChunkBuffer.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Infrastructure/DisposableAction.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Infrastructure/StreamExtensions.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Infrastructure/StreamState.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Infrastructure/UriQueryUtility.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/NegotiationResponse.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Properties/AssemblyInfo.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/AsyncStreamReader.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/AutoTransport.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/CancellationTokenSource.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/CustomEventArgs.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/EventSignal.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/HttpBasedTransport.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/IClientTransport.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/LongPollingTransport.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/OptionalEventSignal.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/ServerSentEventsTransport.cs'
+'Assets/ThirdParty/PlayFabSDK/PlayFabSDK/Shared/SignalR.NET20/Transports/SseEvent.cs'
+'Assets/ThirdParty/PlayFabSDK/Plugins/PlayFabShared/PlayFabErrors.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/CircleObject.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/GroupLayer.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/Layer.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/ObjectLayer.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/PolygonObject.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/PolylineObject.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/RectangleObject.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/SortingLayerExposed.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/SpriteDepthInMap.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/TileAnimator.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/TileLayer.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/TileObject.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/TiledInitialShaderProperties.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/TiledMap.cs'
+'Assets/Tiled2Unity/Scripts/Runtime/TmxObject.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity
