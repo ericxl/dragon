@@ -33,7 +33,9 @@ public class Fireball_Controller : NetworkBehaviour {
 		
 		transform.Translate (Vector2.right * Time.deltaTime*8);
 	}
-	void OnCollisionEnter(Collision other) {
+	void OnCollisionEnter2D(Collision2D other) {
+
+		Debug.Log ("you hit a player");
 		if (!isLive)
 			return;
 		isLive = false;

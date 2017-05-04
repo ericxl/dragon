@@ -12,6 +12,8 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
 	private void Start() {
 		bgImg = GetComponent<Image> ();
 		joystickImg = transform.GetChild (0).GetComponent<Image> ();
+
+
 	}
 
 	public virtual void OnDrag(PointerEventData ped) {
